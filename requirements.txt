@@ -1,0 +1,4 @@
+chromadb
+crewai 
+sentence-transformers 
+psycopg2-binary

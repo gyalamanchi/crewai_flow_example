@@ -1,0 +1,11 @@
+database:
+  host: "localhost"
+  port: 5432
+  dbname: "your_db"
+  user: "your_user"
+  password: "your_password"
+
+vector_store:
+  chroma_path: "./chroma_db"  # Local directory for Chroma storage
+  sql_collection: "sql_examples"
+  schema_collection: "schemas"
