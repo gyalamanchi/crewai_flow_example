@@ -6,6 +6,6 @@ database:
   password: "your_password"
 
 vector_store:
-  chroma_path: "./chroma_db"  # Local directory for Chroma storage
-  sql_collection: "sql_examples"
-  schema_collection: "schemas"
+  redis_host: "localhost"
+  redis_port: 6379
+  # Remove chroma_path and collection names
